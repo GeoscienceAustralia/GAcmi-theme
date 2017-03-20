@@ -1,0 +1,14 @@
+name: GATheme
+type: theme
+base theme: classy
+description: 'Geoscience Australia styled theme.'
+package: custom
+core: '8.x'
+
+regions:
+  headline: headline
+  header: Header
+  content: Content
+  sidebar: sidebar
+  footer: Footer
+

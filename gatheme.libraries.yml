@@ -1,0 +1,7 @@
+global-styling:
+  version: VERSION
+  css:
+     base:
+      includes/bootstrap/css/bootstrap.css: {}	 
+      css/ga.css: {}
+
