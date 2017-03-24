@@ -1,0 +1,296 @@
+body {
+    padding-top:100px;
+    padding-bottom: 100px;
+    background-color: white;
+}
+/* Search box and button - START */
+.searchBoxFullContainer {
+    padding:25px;
+    margin-bottom: 20px;
+}
+
+.searchBoxInputContainer {
+    display: inherit;line-height: 2em;
+}
+.searchBoxInputContainer > input {
+    height:55px;
+    font-size: 18px;
+    font-weight:500;
+}
+
+.searchBoxFullContainer .btn-primary {
+    background-color: #72C7E7;
+    border-color: #72C7E7;
+    color:#006983;
+}
+
+.searchBoxFullContainer .btn-primary:focus,
+.searchBoxFullContainer .btn-primary.focus {
+    color: #006983;
+    background-color: #72C7E7;
+    border-color: #72C7E7;
+}
+.searchBoxFullContainer .btn-primary:hover {
+    background-color: #72C7E7;
+    border-color: #72C7E7;
+    color:#006983;
+}
+.searchBoxFullContainer .btn-primary:active,
+.searchBoxFullContainer .btn-primary.active,
+.searchBoxFullContainer .open > .dropdown-toggle.btn-primary {
+    background-color: #72C7E7;
+    border-color: #72C7E7;
+    color:#006983;
+}
+.searchBoxFullContainer .btn-primary:active:hover,
+.searchBoxFullContainer .btn-primary.active:hover,
+.searchBoxFullContainer .open > .dropdown-toggle.btn-primary:hover,
+.searchBoxFullContainer .btn-primary:active:focus,
+.searchBoxFullContainer .btn-primary.active:focus,
+.searchBoxFullContainer .open > .dropdown-toggle.btn-primary:focus,
+.searchBoxFullContainer .btn-primary:active.focus,
+.searchBoxFullContainer .btn-primary.active.focus,
+.searchBoxFullContainer .open > .dropdown-toggle.btn-primary.focus {
+    background-color: #72C7E7;
+    border-color: #72C7E7;
+    color:#006983;
+}
+.searchBoxFullContainer .btn-primary:active,
+.searchBoxFullContainer .btn-primary.active,
+.searchBoxFullContainer .open > .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.searchBoxBtnContainer > button {
+    height: 55px;
+}
+/* Search box and button - END*/
+
+/* Material Design fonts from -> https://fonts.googleapis.com/icon?family=Material+Icons*/
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v10/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+ul.noLeftPadding {
+    -webkit-padding-start: 0px;
+}
+
+.facet {
+    margin: 0px;
+    border-bottom: dotted 1px #D8D8D8;
+}
+.facet .badge {
+    background-color: white;
+    color: #006983;
+}
+
+li {
+    list-style: none;
+    line-height: 35px;
+}
+
+.mainView {
+    margin-top: 20px;
+
+}
+
+.searchResults {
+    color: #006983;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #006983;
+    margin-bottom: 35px;
+}
+
+.cartBtn {
+    width: 100%;
+}
+
+.cartBtnStyles > button,
+.cartBtnStyles .btn.btn-primary:focus {
+    background-color: #006983;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.cartBtnStyles .btn-primary:active,
+.cartBtnStyles .btn-primary:hover {
+    background-color: #A33F1F;
+    border-color: #A33F1F;
+    color:white;
+}
+
+@media only screen and (max-width: 1200px) {
+    .cartBtnStyles > button {
+        margin-bottom: 10px;
+        width: 100px;
+    }
+    .cartBtn {
+        margin-bottom: 5px;
+    }
+}
+
+.searchRelatedButton {
+    margin-top: -1px;
+    border-top: 1px solid #96d1f8;
+    background: #006983;
+    padding: 10px 40px;
+    border-radius: 0px;
+    color: white;
+    border-bottom: none;
+}
+.searchRelatedButton:hover {
+    background: #A33F1F;
+    cursor: pointer;
+}
+.searchRelatedButton:active {
+    border-top-color: #28597a;
+    background: #A33F1F;
+}
+.searchRelatedButton a {
+    color: white;
+    text-decoration: none;
+}
+
+.showMoreButton {
+    width:100%;
+}
+
+.search-wrapper {
+    width: 100%;
+    background-color: #006983;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.panel-hydroid {
+    border-color: #006983;
+}
+
+.panel-hydroid > .panel-heading {
+    color: #fff;
+    background-color: #006983;
+    border-color: #006983;
+}
+
+.panel-hydroid > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #006983;
+}
+
+.panel-hydroid > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #006983;
+}
+
+.break-word {
+    word-wrap: break-word;
+}
+
+.fade-in-out {
+    transition: 1s linear all;
+    opacity: 1;
+}
+
+@keyframes fadeInAnimation {
+    0%   { opacity:0; }
+    100% { opacity:1; }
+}
+@-o-keyframes fadeInAnimation{
+    0%   { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes fadeInAnimation{
+    0%   { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes fadeInAnimation{
+    0%   { opacity:0; }
+    100% { opacity:1; }
+}
+
+.animate-fade-in {
+    -webkit-animation: fadeInAnimation 0.5s;
+    -moz-animation: fadeInAnimation 0.5s;
+    -o-animation: fadeInAnimation 0.5s;
+    animation: fadeInAnimation 0.5s;
+}
+
+.fade-in-out.ng-hide {
+    opacity: 0;
+}
+
+table.shopping-cart {
+    table-layout: fixed;
+}
+
+.imageRow {
+    margin-bottom: 15px;
+}
+
+.vertically-centered {
+    height: 100px;  /* highest image */
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+@media (min-width: 360px) {
+    .vertically-centered {
+        height: 120px;
+    }
+}
+
+@media (min-width: 640px) {
+    .vertically-centered {
+        height: 160px;
+    }
+}
+
+@media (min-width: 768px) {
+    .vertically-centered {
+        height: 140px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .vertically-centered {
+        height: 160px;
+    }
+}
+
+.vertically-centered img {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.hydroidTitle {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
