@@ -39,6 +39,17 @@
     {% endblock %}
 {% endif %}
 
+<div class="strap-container">
+    <div class="col-md-12 col-xs-12">
+        <div class="strap-blue">
+        </div>
+        <div class="strap-white">
+        </div>
+        <div class="strap-red">
+        </div>
+    </div>
+</div>
+
 {# Main #}
 {% block main %}
     <div role="main" class="main-container {{ container }} js-quickedit-main-content">
@@ -122,8 +133,46 @@
 
 {% if page.footer %}
     {% block footer %}
-        <footer class="footer {{ container }}" role="contentinfo">
-            {{ page.footer }}
-        </footer>
+        <div class="navbar navbar-fixed-bottom hidden-xs" id="footer-rights">
+            <footer class="footer {{ container }}" role="contentinfo"> #}
+                {{ page.footer }}
+            </footer>  #}
+       </div>
+       <div class="visible-xs footer-sm">
+            <footer class="footer {{ container }}" role="contentinfo">  #}
+                {{ page.footer }}
+            </footer>  #}
+       </div>
+
+
+{#
+/**       <div class="navbar navbar-fixed-bottom hidden-xs" id="footer-rights">
+            <ul>
+                <li><a href="http://creativecommons.org/licenses/by/4.0/legalcode" target="_blank"><img src="/{{ directory }}/images/by.png" alt="Creative Commons Logo" width="88"></a></li>
+                <li><a href="http://www.ga.gov.au/copyright">Copyright</a></li>
+                <li><a href="http://www.ga.gov.au/disclaimer">Disclaimer</a></li>
+                <li><a href="http://www.ga.gov.au/privacy">Privacy</a></li>
+                <li><a href="http://www.ga.gov.au/accessibility">Accessibility</a></li>
+                <li><a href="http://www.ga.gov.au/sitemap">Sitemap</a></li>
+                <li><a href="http://www.ga.gov.au/ips">Information Publication Scheme</a></li>
+                <li><a href="http://www.ga.gov.au/ips/foi">Freedom of Information</a></li>
+                <a href="http://www.ga.gov.au/contact-us" class="btn btn-primary searchRelatedButton" style="border-top: none;">Contact us <span class="glyphicon glyphicon-menu-right"></span></a>
+            </ul>
+        </div>
+        <div class="visible-xs footer-sm">
+            <ul>
+                <li><a href="http://creativecommons.org/licenses/by/4.0/legalcode" target="_blank"><img src="/{{ directory }}/images/by.png" alt="Creative Commons Logo" width="88"></a></li>
+                <li><a href="http://www.ga.gov.au/copyright">Copyright</a></li>
+                <li><a href="http://www.ga.gov.au/disclaimer">Disclaimer</a></li>
+                <li><a href="http://www.ga.gov.au/privacy">Privacy</a></li>
+                <li><a href="http://www.ga.gov.au/accessibility">Accessibility</a></li>
+                <li><a href="http://www.ga.gov.au/sitemap">Sitemap</a></li>
+                <li><a href="http://www.ga.gov.au/ips">Information Publication Scheme</a></li>
+                <li><a href="http://www.ga.gov.au/ips/foi">Freedom of Information</a></li>
+                <a href="http://www.ga.gov.au/contact-us" class="btn btn-primary searchRelatedButton" style="border-top: none;">Contact us <span class="glyphicon glyphicon-menu-right"></span></a></p>
+            </ul>
+        </div>
+       #}
+
     {% endblock %}
 {% endif %}
