@@ -77,13 +77,13 @@
     .heading {
         margin-left: 15px;
     }
-    .header .navbar-nav > li {
+    .ga-header .navbar-nav > li {
         margin-left: 10px;
         margin-right: 10px;
         padding-left: 10px;
         padding-right: 10px;
     }
-    #footer-rights {
+    #ga-footer-rights {
         padding-bottom: 100px;
 
     }
@@ -107,12 +107,12 @@ a {
     width: 100%;
 }
 
-.header .navbar-nav > li a {
+.ga-header .navbar-nav > li a {
     color: #006983;
     font-weight: bold;
 }
 
-.header .navbar-nav > li a:hover {
+.ga-header .navbar-nav > li a:hover {
     color: #a33f1f;
 }
 
@@ -319,7 +319,7 @@ img.logo-stacked {
 /* end Footer */
 
 /* Responsive footer*/
-.footer {
+.ga-footer {
     min-height: 42px;
     background-color: #2F2F2F;
     border-color: #2F2F2F;
@@ -329,66 +329,66 @@ img.logo-stacked {
     font-size: 12px;
 }
 
-.footer .navbar-collapse,.ga-footer .navbar-form {
+.ga-footer .navbar-collapse,.ga-footer .navbar-form {
     border-color: #494949;
 }
 
-.footer .nav>li>a {
+.ga-footer .nav>li>a {
     color: #FFFFFF;
 }
 
-.footer .nav>li>a:hover,.ga-footer .nav>li>a:focus {
+.ga-footer .nav>li>a:hover,.ga-footer .nav>li>a:focus {
     text-decoration: underline;
 }
 
-.footer ul.nav {
+.ga-footer ul.nav {
     padding-top: 3px;
     padding-bottom: 3px;
 }
 
-.footer .nav>li>a:hover {
+.ga-footer .nav>li>a:hover {
     background-color: #2F2F2F;
 }
-.footer .nav>li>a {
+.ga-footer .nav>li>a {
     padding-top: 0px;
     padding-bottom: 0px;
 }
 
-#footer-rights {
+#ga-footer-rights {
     background-color: #2F2F2F;
     font-size: 12px;
 }
-#footer-rights > ul {
+#ga-footer-rights > ul {
     list-style-type: none;
     text-align: center;
 }
-#footer-rights ul li {
+#ga-footer-rights ul li {
     display: inline;
 }
-#footer-rights ul li a {
+#ga-footer-rights ul li a {
     padding: .2em 1em;
     color: #fff;
 }
-#footer-rights ul li a:hover {
+#ga-footer-rights ul li a:hover {
     color: #fff;
 }
-#footer-rights .navbar-nav > li > a, .navbar-fixed-bottom {
+#ga-footer-rights .navbar-nav > li > a, .navbar-fixed-bottom {
     padding-top:5px !important;
     padding-bottom: 5px !important;
     height: 10px;
 }
 
 @media screen and (max-width: 768px) {
-    .footer-sm li a,
-    .footer-sm {
+    .ga-footer-sm li a,
+    .ga-footer-sm {
         background-color: #2F2F2F;
         color: white;
         margin-bottom: -120px;
     }
-    #footer-rights ul li {
+    #ga-footer-rights ul li {
         display: compact;
     }
-    #footer-rights .navbar-nav > li > a, .navbar-fixed-bottom {
+    #ga-footer-rights .navbar-nav > li > a, .navbar-fixed-bottom {
         padding-top:5px !important;
         padding-bottom: 20px !important;
         height: 30px;
