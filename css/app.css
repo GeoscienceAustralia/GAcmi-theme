@@ -290,7 +290,13 @@ table.shopping-cart {
     transform: translateY(-50%);
 }
 
-.hydroidTitle {
-    font-size: 20px;
-    margin-bottom: 30px;
+.applicationTitle {
+    margin-left: 20px;
+    color: #000;
+    display: inline-block;
+}
+
+.cmiTitle {
+    font-size: 24px;
+    margin-top: 35px;
 }
