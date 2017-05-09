@@ -1,0 +1,21 @@
+uuid: 82d96e05-3007-47f7-be34-9181aa5ecffe
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gatheme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: gatheme_local_actions
+theme: gatheme
+region: content
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
+

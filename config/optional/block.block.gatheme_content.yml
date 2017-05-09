@@ -1,0 +1,22 @@
+uuid: 68a51bee-4d37-4a92-82f7-a0963ca6a4f1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gatheme
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: gatheme_content
+theme: gatheme
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 5ec4ee10-8eff-43af-b2d8-3325d817d3a7
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gatheme
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: gatheme_page_title
+theme: gatheme
+region: content
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
