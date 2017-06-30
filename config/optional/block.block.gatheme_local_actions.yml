@@ -17,5 +17,11 @@ settings:
   label: 'Primary admin actions'
   provider: core
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /hydroid_search
+    negate: true
+    context_mapping: {  }
+
 
