@@ -23,5 +23,4 @@ visibility:
     pages: /hydroid_search
     negate: true
     context_mapping: {  }
-    
 
