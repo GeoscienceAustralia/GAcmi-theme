@@ -24,4 +24,6 @@ regions:
   footer: 'Footer'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
-
+entity_print:
+  view:
+    all: gatheme/print-styling
