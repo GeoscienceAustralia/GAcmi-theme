@@ -1,0 +1,22 @@
+uuid: 2cd45936-5877-4a1d-bfb0-8e919b6633c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - gatheme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: gatheme_help
+theme: gatheme
+region: help
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

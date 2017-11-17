@@ -1,0 +1,29 @@
+uuid: f23cfe51-e25b-4e0e-903b-ec531e680f9b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gatheme
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: gatheme_messages
+theme: gatheme
+region: header
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /hydroid_search
+    negate: true
+    context_mapping: {  }
+
+
