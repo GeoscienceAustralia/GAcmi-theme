@@ -21,3 +21,8 @@ bootstrap-scripts:
     bootstrap/js/scrollspy.js: {}
     bootstrap/js/tab.js: {}
     bootstrap/js/transition.js: {}
+
+print-styling:
+  css:
+    theme:
+      css/print-style.css: {}
