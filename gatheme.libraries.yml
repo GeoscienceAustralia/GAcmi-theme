@@ -1,9 +1,10 @@
 global-css:
   css:
     theme:
+      css/dev.css: {}
+      css/ga.css: {}
       'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css': {type: external}
       includes/bootstrap/css/bootstrap.css: {}
-      css/ga.css: {}
       css/app.header.footer.css: {}
       css/app.css: {}
 

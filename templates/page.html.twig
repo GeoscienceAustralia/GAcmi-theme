@@ -129,7 +129,8 @@
                     {# Content #}
                     {% block content %}
                         <a id="main-content"></a>
-                        {{ page.content }}
+			{{ tabs }}
+  			{{ page.content }}
                     {% endblock %}
                 </section>
 
