@@ -15,10 +15,13 @@ stylesheets-remove:
 regions:
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
+  sub_nav_bar: "Secondary Nav Bar"
   header: 'Top Bar'
   highlighted: 'Highlighted'
   help: 'Help'
   content: 'Content'
+  content_news: 'News'
+  content_feedback: 'Feedback'
   sidebar_first: 'Primary'
   sidebar_second: 'Secondary'
   footer: 'Footer'

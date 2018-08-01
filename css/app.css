@@ -1,11 +1,12 @@
 /* Search box and button - START */
 .searchBoxFullContainer {
     padding:25px;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
 }
 
 .searchBoxInputContainer {
     display: inherit;line-height: 2em;
+    margin: auto;
 }
 .searchBoxInputContainer > input {
     height:55px;
@@ -171,7 +172,8 @@ li {
 }
 
 .search-wrapper {
-    width: 100%;
+    width: 60%;
+    margin: auto;
     background-color: #006983;
 }
 
