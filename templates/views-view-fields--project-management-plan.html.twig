@@ -31,12 +31,7 @@
  * @ingroup themeable
  */
 #}
-testing if i have a hijack
-{{ vardumper(fields)}}
 {% for key, field in fields -%}
-  {% if keys == "field_data_sources" %}
-       field service pub
-  {% endif %}
   {{ field.separator }}
   {%- if field.wrapper_element -%}
     <{{ field.wrapper_element }}{{ field.wrapper_attributes }}>
