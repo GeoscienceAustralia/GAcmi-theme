@@ -31,11 +31,11 @@
  * @ingroup themeable
  */
 #}
+<<<<<<< HEAD
 {{ vardumper(fields)}}
+=======
+>>>>>>> 1fc50fb5e2f6e7974a205c3375bf5ba08b9e2aa2
 {% for key, field in fields -%}
-  {% if keys == "field_data_sources" %}
-       field service pub
-  {% endif %}
   {{ field.separator }}
   {%- if field.wrapper_element -%}
     <{{ field.wrapper_element }}{{ field.wrapper_attributes }}>

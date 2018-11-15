@@ -30,3 +30,5 @@ regions:
 entity_print:
   view:
     all: gatheme/print-styling
+  node:
+    all: gatheme/print-styling

@@ -82,6 +82,12 @@
                     </div>
                 </div>
                 <div class="main-content-area">
+                        {# Help #}
+                        {% if page.help %}
+                            {% block help %}
+                                {{ page.help }}
+                            {% endblock %}
+                        {% endif %}
                     {# Sidebar First #}
                     {% if page.sidebar_first %}
                         {% block sidebar_first %}
@@ -125,12 +131,6 @@
                             {% endblock %}
                         {% endif %}
 
-                        {# Help #}
-                        {% if page.help %}
-                            {% block help %}
-                                {{ page.help }}
-                            {% endblock %}
-                        {% endif %}
 
                         {# Content #}
                         {% block content %}
