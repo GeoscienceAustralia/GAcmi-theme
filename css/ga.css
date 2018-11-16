@@ -429,8 +429,15 @@
     border-width: 2px;
     background-color: white;
 }
-.view-lineage-view .is-unpublished h1
+.view-lineage-view .is-unpublished h5
 {
+    width: 85px;
+    margin-top: -9px;
+    margin-left: 84%;
+    background: white;
+    color: #a33f1f;
+    font-weight: bold;
+    margin-bottom: 0px;
 }
 /**
  * ******Product stage
