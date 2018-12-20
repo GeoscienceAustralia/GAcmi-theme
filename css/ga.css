@@ -367,6 +367,83 @@
     margin-left: 20%;
 }
 /**
+ * ----------------------------------------------------------------------webforms
+ * Workflow wizard
+ */
+.webform-submission-workflow-prototype-form .webform-progress-tracker .is-complete::after
+{
+    background-color: #a33f1f !important;
+}
+.webform-submission-workflow-prototype-form .webform-progress-tracker .is-complete .progress-marker
+{
+    background-color: #006983;
+}
+.webform-submission-workflow-prototype-form .webform-progress-tracker .is-active::after
+{
+    background-color: #a33f1f4f;
+}
+.webform-submission-workflow-prototype-form .webform-progress-tracker .is-active .progress-marker
+{
+    background-color: #72c7e7;
+}
+.webform-submission-workflow-prototype-form .webform-progress-tracker .progress-step::after
+{
+    background-color: #a33f1f4f;
+}
+.hide--fieldset--border
+{
+    border: 0px !important;
+    box-shadow: 0px 0px 0px;
+}
+.hide--fieldset--border h3
+{
+    margin-top: 0px;
+    text-align: center;
+    color: #006983;
+}
+.webform-submission-workflow-prototype-form hr
+{
+    border: 2px;
+    border-style: solid;
+    color: #006983;
+    border-radius: 2px;
+    margin: 0px;
+}
+.webform-submission-workflow-prototype-form .webform-progress__summary
+{
+    display: none;
+}
+.hide--fieldset--border hr
+{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(175, 72, 39, 0), rgba(175, 72, 39, 1), rgba(175, 72, 39, 0));
+}
+.hide--fieldset--border strong 
+{
+    color: #006983;
+}
+.hide--fieldset--border .webform-flex--container
+{
+    /*margin: 0 0em;*/
+}
+.workflow-wizard-col-1
+{
+    /*border-right: 0px !important;
+    border-right-color: #006983 !important;
+    border-right-width: medium !important;
+    border-right-style: solid !important;*/
+}
+.workflow-wizard-col-2
+{
+    /*border: 0px !important;
+    border-left: 2px !important;
+    border-left-color: #006983 !important;
+    border-left-width: medium !important;
+    border-style: solid !important;*/
+}
+
+/**
  * ----------------------------------------------------------------------Pages
  */
 #edit-openid-connect-client-microsoft-login
